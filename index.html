@@ -13,7 +13,38 @@
 <body>
 <!-- Content will go here -->
 
+<!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Admin Dashboard</a>
+        </div>
+    </nav>
 
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <ul class="nav flex-column p-3">
+                    <li class="nav-item"><a class="nav-link active" href="#">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Users</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reports</a></li>
+                </ul>
+            </nav>
+
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h2 class="mt-4">Welcome to Admin Panel</h2>
+                <div class="card p-3">
+                    <p>Manage users, view reports, and analyze statistics.</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-4">
+        <p>&copy; 2025 Admin Panel | All rights reserved.</p>
+    </footer>
 
 <!-- Bootstrap JS Bundle with Popper -->
 <script src="assets/vendor/bootstrap-5.3.5/js/bootstrap.bundle.min.js"></script>
